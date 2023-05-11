@@ -49,6 +49,7 @@ class Dev(Configuration):
         'django.contrib.messages',
         'django.contrib.staticfiles',
         "movies",
+        "gh",
     ]
 
     MIDDLEWARE = [
@@ -158,4 +159,4 @@ class Dev(Configuration):
         },
     }
 
-    OMDB_KEY = values.SecretValue()
+    OMDB_KEY = "1234" # values.SecretValue()
